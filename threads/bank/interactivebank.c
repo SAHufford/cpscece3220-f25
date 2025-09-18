@@ -69,6 +69,10 @@ int main(int argc, char **argv)
 		printf("Unrecognized or invalid command (cmd=%s, val=%d), try \"help\"\n", cmd, value);
 		// unlock here, or do more fine-grained locking
 		// if you want to sqeeze out a little more performance.
+
+		//make timer to deduct a fee if no input is given every 5 seconds
+		//use mutex lock
+		//use sleep command to keep time
 	}
 	printf("Ok. we're all done...Bye.\n");
 	return 0;

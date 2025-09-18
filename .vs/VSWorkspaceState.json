@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\prelim",
-    "\\processes"
+    "\\processes",
+    "\\threads",
+    "\\threads\\bank"
   ],
-  "SelectedNode": "\\prelim\\shim.c",
+  "SelectedNode": "\\threads\\bank\\interactivebank.c",
   "PreviewInSolutionExplorer": false
 }
